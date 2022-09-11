@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="student1" class="com.spring.assignment.Student">
+    	<property name="studentId" value="01"></property>
+    	<property name="studentName" value="Steve"></property>
+    	<property name="studentTest" value="Object of type Test"></property>
+    </bean>
+    <bean id="student2" class="com.spring.assignment.Student">
+    	<property name="studentId" value="02"></property>
+    	<property name="studentName" value="Jack"></property>
+    	<property name="studentTest" value="Object of type Test, Practical Test"></property>
+    </bean>
+    
+    <bean id="test1" class="com.spring.assignment.Test">
+    	<property name="testId" value="102"></property>
+    	<property name="testTitle" value="Core Java Test"></property>
+    	<property name="testMarks" value="80"></property>
+    </bean>
+    
+    <bean id="test2a" class="com.spring.assignment.Test">
+    	<property name="testId" value="103"></property>
+    	<property name="testTitle" value="Core Java Test"></property>
+    	<property name="testMarks" value="84"></property>
+    </bean>
+    
+    <bean id="test2b" class="com.spring.assignment.Test">
+    	<property name="testId" value="104"></property>
+    	<property name="testTitle" value="Java-Script"></property>
+    	<property name="testMarks" value="75"></property>
+    </bean>
+    
+    
+
+</beans>
