@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="m1" class="com.Main" init-method="initialize" destroy-method="destroy">
+    	<property name="movieId" value="5662634"></property>
+    	<property name="movieName" value="3-Idiots"></property>
+    	<property name="movieActor" value="Amir Khan"></property>
+    </bean>
+    
+    
+
+</beans>
