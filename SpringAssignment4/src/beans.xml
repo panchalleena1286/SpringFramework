@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd">
+         
+         
+        <bean id="player1" class="com.spring.assignment.Player">
+        	<property name="playerId" value="P001"></property>
+        	<property name="playerName" value="Sachin"></property>
+        	<property name="country" value="`Country`"></property>
+        </bean>
+         <bean id="player2" class="com.spring.assignment.Player">
+        	<property name="playerId" value="P002"></property>
+        	<property name="playerName" value="Kohli"></property>
+        	<property name="country" value="`Country`"></property>
+        </bean>
+         <bean id="player3" class="com.spring.assignment.Player">
+        	<property name="playerId" value="P003"></property>
+        	<property name="playerName" value="Monank"></property>
+        	<property name="country" value="`Country`"></property>
+        </bean>
+         <bean id="player4" class="com.spring.assignment.Player">
+        	<property name="playerId" value="P004"></property>
+        	<property name="playerName" value="Steven Taylor"></property>
+        	<property name="country" value="`Country`"></property>
+        </bean>
+         <bean id="player5" class="com.spring.assignment.Player">
+        	<property name="playerId" value="P005"></property>
+        	<property name="playerName" value="Nisarg Patel"></property>
+        	<property name="country" value="`Country`"></property>
+        </bean>
+        
+        
+        <bean id="country1" class="com.spring.assignment.Country">
+        	<property name="countryId" value="I91"></property>
+        	<property name="countryName" value="INDIA"></property>
+        </bean>
+        <bean id="country2" class="com.spring.assignment.Country">
+        	<property name="countryId" value="A1"></property>
+        	<property name="countryName" value="AMERICA"></property>
+        </bean>
+        
+        
+         
+</beans>         
